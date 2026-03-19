@@ -1,0 +1,31 @@
+# MicroPython / ESP32 project .gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MicroPython compiled bytecode
+*.mpy
+
+# esptool / flashing logs
+*.log
+*.bin
+
+# Thonny workspace
+.thonny/
