@@ -16,7 +16,6 @@ An autonomous fire detection and suppression system built on a plain ESP32 using
 8. [Running the Tests](#8-running-the-tests)
 9. [Flashing to ESP32](#9-flashing-to-esp32)
 10. [Tuning Parameters](#10-tuning-parameters)
-11. Project overview video
 
 ---
 
@@ -300,5 +299,3 @@ All tuning constants are at the top of `main.py` under the `TUNING` block.
 
 MIT — free to use, modify, and redistribute with attribution.
 
-## Project overview video
-https://screenpal.com/content/video/cOeqqKnTVUs
