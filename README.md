@@ -1,5 +1,3 @@
-# fire_detection_esp32_micropython
-fire detection and water sprinkler system
 # ESP32 Fire Suppression System
 
 An autonomous fire detection and suppression system built on a plain ESP32 using MicroPython. The system continuously scans for fire and smoke, confirms detections against false positives, and activates a water pump and directional nozzle only when fire is genuinely verified.
@@ -23,18 +21,18 @@ An autonomous fire detection and suppression system built on a plain ESP32 using
 
 ## 1. Hardware Overview
 
-| Component                       | Purpose                                        |
-|---------------------------------|------------------------------------------------|
-| ESP32 (plain, 38-pin)           | Microcontroller — runs all logic               |
-| Servo Motor 1 (SG90 or similar) | Scans the environment for fire                 |
-| Servo Motor 2 (SG90 or similar) | Aims the water nozzle during suppression       |
-| IR Flame Sensor                 | Detects infrared radiation from flames         |
-| MQ-2 Smoke/Gas Sensor           | Detects smoke, LPG, propane                    |
-| 5V Relay Module                 | Switches the water pump on/off                 |
-| Water Pump (5V/12V DC)          | Delivers water through the nozzle              |
-| Active/Passive Buzzer           | Audio alerts for warning and danger states     |
-| DHT11                           | Logs ambient temperature and humidity          |
-| Common-Cathode RGB LED          | Visual indicator of system state               |
+| Component | Purpose |
+|---|---|
+| ESP32 (plain, 38-pin) | Microcontroller — runs all logic |
+| Servo Motor 1 (SG90 or similar) | Scans the environment for fire |
+| Servo Motor 2 (SG90 or similar) | Aims the water nozzle during suppression |
+| IR Flame Sensor | Detects infrared radiation from flames |
+| MQ-2 Smoke/Gas Sensor | Detects smoke, LPG, propane |
+| 5V Relay Module | Switches the water pump on/off |
+| Water Pump (5V/12V DC) | Delivers water through the nozzle |
+| Active/Passive Buzzer | Audio alerts for warning and danger states |
+| DHT11 | Logs ambient temperature and humidity |
+| Common-Cathode RGB LED | Visual indicator of system state |
 
 ---
 
