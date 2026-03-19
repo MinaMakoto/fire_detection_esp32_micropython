@@ -298,3 +298,6 @@ All tuning constants are at the top of `main.py` under the `TUNING` block.
 ## Licence
 
 MIT — free to use, modify, and redistribute with attribution.
+
+## Project overview video
+https://screenpal.com/content/video/cOeqqKnTVUs
